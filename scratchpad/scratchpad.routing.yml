@@ -1,0 +1,8 @@
+scratchpad.test_endpoint:
+  path: '/test-endpoint'
+  defaults:
+    _controller: '\Drupal\scratchpad\Controller\ScratchpadController::testEndpoint'
+  requirements:
+    _permission: 'access content'
+  options:
+    no_cache: TRUE
